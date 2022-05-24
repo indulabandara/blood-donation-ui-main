@@ -1,0 +1,17 @@
+<div class="row">
+  <div *ngFor="let post of posts | async" class="col-md-6 card">
+    <!-- {{ post | json }} -->
+    <div class="row">
+      <div class="col-md-6">Division: {{ post.Division }}</div>
+      <div class="col-md-6">Name: {{ post.Name }}</div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-6">BloodGroup: {{ post.BloodGroup }}</div>
+      <div class="col-md-6">Date: {{ post.Date }} : {{ post.Time }}</div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-6">Address: {{ post.Address }}</div>
+      <div class="col-md-6">Contact: {{ post.Contact }}</div>
+    </div>
+  </div>
+</div>

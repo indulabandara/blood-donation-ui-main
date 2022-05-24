@@ -1,0 +1,22 @@
+.stat-container {
+  margin-left: 100px;
+}
+.stat-container-card {
+  height: 60vh;
+  margin: 15px;
+
+  display: flex;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.centered-text-card {
+  height: 100%;
+  font-size: 5rem;
+}

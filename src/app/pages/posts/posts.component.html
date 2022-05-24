@@ -1,0 +1,19 @@
+<div class="row">
+  <h3 class="col-md-4 mb-3">Posts</h3>
+  <div>
+    <button
+      *ngIf="isViewMode"
+      (click)="onEnterCreateMode()"
+      class="btn btn-primary"
+    >
+      Add New Post
+    </button>
+  </div>
+</div>
+<post-show *ngIf="isViewMode"></post-show>
+<div class="post-create-container">
+  <post-create
+    *ngIf="!isViewMode"
+    (onCreateNewPost)="onCreateNewPost()"
+  ></post-create>
+</div>

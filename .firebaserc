@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "findcure-6e23d": {
+      "hosting": {
+        "blood-donation-ui": [
+          "findcure-6e23d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "findcure-6e23d"
+  }
+}
